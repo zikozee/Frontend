@@ -1,0 +1,98 @@
+resourse for web https://developer.mozilla.org/en-US/
+
+
+Element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+OR google search wat you need + mdn 
+e.g HTML form mdn
+
+
+Block or Inline elements
+------------------------
+
+Block elements are elements that take up their own space and don't share
+e.g h tags (h1, h2), p tags, ul, ol, li, div
+
+Inline elementsare elements that can co-exist with other elements
+e.g img, a, span
+
+
+div --> Content Division Element
+a way to group elements together in a container
+
+span --> an inline generic element like a container used to phrase or style content
+really does not do anything other than call come content out to style ...
+
+
+
+HTML Entities
+--------------
+they start with & and end with a ;
+
+This are used to display reserved characters that would normally be invalid
+Also used in place of difficult to type characters
+The broweser interprets them and renders the correct character instead 
+
+search by "html entity KEYWORD"
+OR https://enitycodes.com
+
+
+
+Semantic Markup
+--------------------
+- new elements that work exactly like div but gives more meaning (they don't do anything div does not do)
+- main, header, section, nav, footer, article, aside, summary, time, figure
+
+==========
+FORMS
+==========
+default method = get
+
+NAME ATTRIBUTE
+---------------
+ the name attribute on the input is used to send data to the server.  <NAME>=<VALUE_INSERTED>
+
+say the form is /tacos
+and we have <input ... name="username"
+
+value entered Ezekiel
+then we have 
+
+/tacos?username=Ezekiel
+
+
+Radio
+------
+we need to set the value
+cos whatever the value is, is what is sent to the server
+else the name is sent
+
+
+
+
+
+CSS
+----
+
+the names of the element are used in CSS
+
+
+paragraph  --> p
+button
+h2
+h1
+anchor --> a
+
+
+background does a lot more than background-color
+background is like a grna parent tht can be used to reference several other things
+
+
+CSS FONTS
+==========
+- https://www.cssfontstack.com/
+
+
+ font-family: 'Segoe UI', Futura, Arial, sans-serif;
+ the first is the highest priority, and the next is next-highest i.e if the first or previous does not exist
+ more like a backup
