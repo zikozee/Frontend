@@ -96,3 +96,15 @@ CSS FONTS
  font-family: 'Segoe UI', Futura, Arial, sans-serif;
  the first is the highest priority, and the next is next-highest i.e if the first or previous does not exist
  more like a backup
+
+
+
+ PSEUDO-CLASSES
+ ==============
+ modifiers or keywords added to the end of the selector to indicate the state of a selected element
+
+ e.g
+ - targeting check-box that has been checked
+ - elements that have been hovered over
+
+ usage: they always start with a colon ":"

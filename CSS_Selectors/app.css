@@ -1,0 +1,123 @@
+/*styling everything*/
+/* * {
+    background-color: cyan;
+} */
+
+
+body {
+    background-color: #f1faee;
+}
+
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+/* ID Selector */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee
+}
+
+/*styling multiple element*/
+h1,h2 {
+    color: #1d3557;
+}
+
+span {
+    color: #457b9d;
+}
+
+/* Using class selector */
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+/* Descendant Selector */
+/* Select all anchors <a> that are nested within an element with class "post" */
+/*target is anchor <a>*/
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Select all anchors <a> that are nested inside the footer */
+/*target is anchor <a>*/
+footer a {
+    color: #e63946;
+}
+
+/* Select all anchors <a> that are nested inside an ID dislikes */
+/*#dislikes a {*/
+
+/*}*/
+
+
+
+/*ADJACENT SELECTOR*/
+/*Select only the element that comes immediately after the element before the plus "+"*/
+/*button immediately after input*/
+/*input + button {*/
+/*    background-color: pink;*/
+/*}*/
+
+/* button immediately after h2 */
+h2 + button {
+    font-size: 20px;
+}
+
+/*DIRECT CHILD*/
+/*select only element that are the direct descendant of element before the greater-than symbol ">"*/
+
+footer > a {
+    color: #457b9d;
+}
+
+
+
+
+/*ATTRIBUTE SELECTOR : https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors*/
+/*Select all elements where the "type" attribute is set to whatever is within the []*/
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+/* any section with class="post" */
+/* same as  section.post {} */
+/*
+section[class="post"]{
+    background-color: blueviolet;
+} */
+
+/* any anchor tag where the href contains google*/
+a[href*="google"] {
+    color: magenta;
+}
+
+
+/*PSEUDO CLASSES: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes*/
+/*keywords added to the end of the selector to indicate the state of a selected element*/
+
+/*hovering over button with class post*/
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+/*selecting every 2nd element with class post*/
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
