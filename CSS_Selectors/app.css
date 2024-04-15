@@ -100,14 +100,8 @@ a[href*="google"] {
 }
 
 
-/*PSEUDO CLASSES: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes*/
+/*PSEUDO CLASSES (STATES) https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes*/
 /*keywords added to the end of the selector to indicate the state of a selected element*/
-
-/*hovering over button with class post*/
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee;
-}
 
 .post a:hover {
     text-decoration: underline;
@@ -120,4 +114,30 @@ a[href*="google"] {
 /*selecting every 2nd element with class post*/
 .post:nth-of-type(2n) {
     background-color: #dfe8dc;
+}
+
+/*hovering over button with class post*/
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+/*PSEUDO ELEMENTS (SELECT PART OF ELEMENT) */
+/* keywords added to the end of the selector that let's you style a particular part of selected element */
+
+h2::first-letter {
+    font-size: 50px
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
 }

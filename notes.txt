@@ -108,3 +108,31 @@ CSS FONTS
  - elements that have been hovered over
 
  usage: they always start with a colon ":"
+
+
+ SPECIFICITY  : https://specificity.keegan.st/
+ ============
+ Specificity is how the browser decides which rules to apply when there's a conflict
+ e.g we have conflict in the color that applies to some area
+
+ chrome dev-tools can show you the conflict and show you which is winning as it would cross out the one losing
+
+ Calculator: Inline styles >  ID selectors > CLASS selectors  > ELEMENT selectors
+
+ NOTE: It's bad practise to use inline styles and "!important" as these automatically ignore specificity
+
+                            ID selectors     class, Attribute, & Pseudo-Class Selectors      Element and Pseudo-Element Selectors
+                            -----------       -----------------------------------------      ------------------------------------
+
+ nav a.active {
+    color: orange               0                           1                                           2
+ }
+
+
+ section p {
+    color: teal                 0                           0                                           2
+ }
+
+ #submit {
+    color: olive                1                           0                                           0
+ }
