@@ -1,0 +1,66 @@
+html {
+    font-size: 30px;
+}
+
+#percentages {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+#percentages div {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+#ems h2 {
+    font-size: 2em; /* this is twice the font-size of parent <article>*/
+    margin-left: 1em; /* this will be equal to the font-size of h2 itself i.e */
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems {
+    font-size: 15px;
+}
+
+button {
+    font-size: 1em;  /* same font-size as the direct parent */
+    padding: 0 1em; /* relative to the button itself */
+    border-radius: .5em;  /* relative to the button itself */
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#ems ul {
+    font-size: 1.5em;
+}
+
+#rems h2{
+    font-size: 3rem;
+}
+
+#rems h3{
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 1.5rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
+}

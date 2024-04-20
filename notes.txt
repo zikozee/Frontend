@@ -73,7 +73,7 @@ else the name is sent
 
 CSS
 ----
-
+Color Palette: -> for colors
 the names of the element are used in CSS
 
 
@@ -136,3 +136,107 @@ CSS FONTS
  #submit {
     color: olive                1                           0                                           0
  }
+
+
+
+
+                                            ===============
+                                            THE BOX MODEL
+                                            ==============
+ In CSS, everything is viewed as a box
+
+
+ Border Properties
+ ==================
+ at the least these must be provided
+ ------
+ BORDER-WIDTH : thickness
+ BORDER-COLOR: color
+ BORDER-STYLE: line style --> dashed, solid
+
+ Setting all in one go
+ ---------------------
+ border: width style color
+
+
+
+PADDING
+---------
+devtools:  green
+ Apply to all four sides
+    padding: 10px
+
+ Vertical  | Horizontal
+    padding: 5px 10px
+
+  top | horizontal  | bottom
+    padding: 1px 2px 2px
+
+  top | right | bottom | left
+    padding: 5px 1px 0 2px
+
+   MARGIN
+   -------
+   devtools:  orange
+   space outside the elements borders
+
+
+
+CHANGING ELEMENT DEFAULT DISPLAY
+===============================
+h1s divs etc are block by default
+but you can change using display to inline or inline-block
+
+INLINE
+---------
+Width & Height are ignored.
+margin & padding push elements away horizontally but not vertically
+
+
+BLOCK
+---------
+Block elements break the flow of a document.
+Width, Height, Margin & padding are respected.
+
+
+INLINE-BLOCK
+---------
+Behaved like an inline elements
+except Width, Height, Margin & Padding are respected
+
+
+
+CSS UNITS
+---------
+Relative:
+
+Percentages: -> they are always relative to some other value
+Sometimes, its a value from the parent and at other times
+from the element itself
+
+width: 50% - half the width of the parent
+line-height: 50% - half the font-size of the element itself
+
+
+
+em
+---
+Width font-size,
+1em equals the font-size of the parent.
+2em's is twice the font-sie of the parent etc
+
+With other properties,
+1em is equal to the computed font-size of the element itself
+
+
+rem
+----
+Relative to the **root html** element's font-size.
+Often easier to work with
+
+If the root font-size is 20px, 1rem is always 20px. 2rem is always 40px
+
+
+in contrast:
+ems scale based on the parent element
+rems scales based on the root html's element
