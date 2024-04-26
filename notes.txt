@@ -240,3 +240,39 @@ If the root font-size is 20px, 1rem is always 20px. 2rem is always 40px
 in contrast:
 ems scale based on the parent element
 rems scales based on the root html's element
+
+
+
+OPACITY AND ALPHA
+===================
+rgba(red, green, blue, alpha)
+red, green, blue  ranges from 0 - 255
+alpha --> 0-1  (0 very transparent, 1 not transparent)
+
+we ca also use hex
+    #FFFF00CF  --> where the last 2 after the six is the transparency it ranges from 00-FF
+
+- alpha only applies to the specific element it was applied on
+- while opacity's transparency affects the element and all descendants
+
+
+TRANSITION
+============
+Property name |  Duration | Timing Function | Delay
+check  transition-timing-function on mdn
+you can also check:::::::::  easings.net
+
+
+FREE IMAGES
+==========
+-https://unsplash.com/
+
+
+
+WHITESPACE
+===========
+    <!--  this was aligned liked this cos of white space  -->
+    <!--  <h1>Hello</h1><h1>World</h1>  on same line is different when on diff. line -->
+    <img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg"><img
+        src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg"><img
+        src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
