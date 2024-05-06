@@ -276,3 +276,30 @@ WHITESPACE
     <img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg"><img
         src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg"><img
         src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
+
+
+
+            ============================
+                    FLEX BOX
+            ============================
+Distributing space in a container in between elements and its scales dynamically or stacks as required
+so we have a flexible layout
+
+to start, we use the property-->>
+display: flex
+flex-direction
+
+            ====================
+                MEDIA QUERIES
+            ====================
+mdn  --> media queries
+
+for standard break points
+devfacts.com/media-queries-breakpoints
+
+            ====================
+                  CSS RESET
+            ====================
+  https://meyerweb.com/eric/tools/css/reset/
+The goal of a reset stylesheet is to reduce browser inconsistencies in things like:
+default line heights,margins and font sizes of headings, and so on
