@@ -303,3 +303,26 @@ devfacts.com/media-queries-breakpoints
   https://meyerweb.com/eric/tools/css/reset/
 The goal of a reset stylesheet is to reduce browser inconsistencies in things like:
 default line heights,margins and font sizes of headings, and so on
+
+
+            ==================
+                BOOTSTRAP
+            ==================
+site: get.bootstrap.com
+place your style sheet below bootstrap so it wins
+
+
+Search Grid
+Grid works within a container
+e.g row uses class row
+
+- Every row in bootstrap has 12 unit of space
+- we then create columns in the row
+- to equally divide the 6 units we can use class="col"
+    it will check the total number in the row and do the math automatically
+
+   <!-- the col-xl-3 kicks in ≥1200px see documentation -->
+   <div class="col-md-6 col-xl-3 bg-info">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit mollitia officia quae ut? Ducimus earum, explicabo illo incidunt iure natus, nobis perspiciatis porro provident quaerat quibusdam, repudiandae temporibus unde.
+               </div>
+ <!-- the col-md-3 kicks in  ≥768px see documentation -->
